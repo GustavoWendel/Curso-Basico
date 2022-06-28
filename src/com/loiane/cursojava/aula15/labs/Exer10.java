@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Exer10 {
 	public static void main(String[] args) {
 		
-Scanner scan = new Scanner(System.in);
+		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("Em que turno você estuda? M - Matutino ou V - Vespertino ou N- Noturno");
 		String turno = scan.next();
