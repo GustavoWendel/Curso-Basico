@@ -17,12 +17,12 @@ public class exer14 {
 
 		double media = (nota01 + nota02) / 2;
 		String conceito = null;
-		
+
 		if (media >= 9.0 && media <= 10.0) {
 			conceito = "A";
 			System.out.println("Conceito: " + conceito);
 			System.out.printf("Média: % .2f \n", media);
-			
+
 			if (conceito.equalsIgnoreCase("A")) {
 				System.out.println("APROVADO");
 			}
@@ -30,7 +30,7 @@ public class exer14 {
 			conceito = "B";
 			System.out.println("Conceito: " + conceito);
 			System.out.printf("Média: % .2f \n", media);
-			
+
 			if (conceito.equalsIgnoreCase("B")) {
 				System.out.println("APROVADO");
 			}
@@ -38,7 +38,7 @@ public class exer14 {
 			conceito = "C";
 			System.out.println("Conceito: " + conceito);
 			System.out.printf("Média: % .2f \n", media);
-			
+
 			if (conceito.equalsIgnoreCase("C")) {
 				System.out.println("APROVADO");
 			}
@@ -46,7 +46,7 @@ public class exer14 {
 			conceito = "D";
 			System.out.println("Conceito: " + conceito);
 			System.out.printf("Média: % .2f \n", media);
-			
+
 			if (conceito.equalsIgnoreCase("D")) {
 				System.out.println("REPROVADO");
 			}
@@ -54,7 +54,7 @@ public class exer14 {
 			conceito = "E";
 			System.out.println("Conceito: " + conceito);
 			System.out.printf("Média: % .2f \n", media);
-			
+
 			if (conceito.equalsIgnoreCase("E")) {
 				System.out.println("REPROVADO");
 			}

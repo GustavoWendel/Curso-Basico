@@ -17,11 +17,11 @@ public class Exer15 {
 		System.out.println("Digite o valor do lado C do triângulo: ");
 		double C = scan.nextDouble();
 
-		if ( A + B < C) {
+		if (A + B < C) {
 			System.out.println("É um triângulo");
-		} else if(A + C < B) {
+		} else if (A + C < B) {
 			System.out.println("É um triângulo");
-		} else if( B + C < C){
+		} else if (B + C < C) {
 			System.out.println("É um triângulo");
 		} else {
 			System.out.println("Não é um triângulo");
@@ -29,9 +29,9 @@ public class Exer15 {
 
 		if (A == B && A == C && B == C) {
 			System.out.println("Triângulo Equilátero: três lados iguais");
-		} else if ( (A == B) || (A == C) || (B == C) ) {
+		} else if ((A == B) || (A == C) || (B == C)) {
 			System.out.println("Triângulo Isósceles: quaisquer dois lados iguais");
-		} else if ( (A != B) && (A != C) && (B != C) ) {
+		} else if ((A != B) && (A != C) && (B != C)) {
 			System.out.println("Triângulo Escaleno: três lados diferentes");
 		}
 		scan.close();

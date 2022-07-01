@@ -2,7 +2,6 @@ package com.loiane.cursojava.aula15.labs;
 
 import java.util.Scanner;
 
-
 //Faça um Programa que leia um número e exiba o dia correspondente 
 //da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve 
 //aparecer valor inválido.
@@ -11,10 +10,10 @@ public class Exer13 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		
+
 		System.out.println("Digite um número: ");
 		int diaSemana = scan.nextInt();
-		
+
 		switch (diaSemana) {
 		case 1:
 			System.out.println("Domingo");
@@ -40,9 +39,9 @@ public class Exer13 {
 		default:
 			System.out.println("Valor inválido");
 		}
-		
+
 		System.out.println("Acabou!!");
-		
+
 		scan.close();
 
 	}
