@@ -1,0 +1,4 @@
+
+t	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(Μ‚Μ8½υα–΅0
+U	java:S106	"9Replace this use of System.out or System.err by a logger.(³Ι—θ8θ„α–΅0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(†™ρ‹8ι„α–΅0

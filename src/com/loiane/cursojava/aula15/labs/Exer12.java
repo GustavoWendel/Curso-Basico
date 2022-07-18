@@ -9,18 +9,18 @@ public class Exer12 {
 		Scanner scan = new Scanner(System.in).useLocale(Locale.US);
 
 		double salarioBruto, valorHoraTrabalhada, percentual = 0;
-		int quantidadeHorasMês;
+		int quantidadeHoras;
 
 		System.out.println("Digite o valor da sua hora: ");
 		valorHoraTrabalhada = scan.nextDouble();
 
-		System.out.println("Digite a quantidade de horas do mês: ");
-		quantidadeHorasMês = scan.nextInt();
+		System.out.println("Digite a quantidade de horas do mï¿½s: ");
+		quantidadeHoras = scan.nextInt();
 
-		// fórmula do salário bruto
-		salarioBruto = valorHoraTrabalhada * quantidadeHorasMês;
+		// fï¿½rmula do salï¿½rio bruto
+		salarioBruto = valorHoraTrabalhada * quantidadeHoras;
 
-		// Lógica para calcular o desconto do salário e IR
+		// Lï¿½gica para calcular o desconto do salï¿½rio e IR
 		if (salarioBruto <= 900) {
 			System.out.println("Isento.");
 		} else if (salarioBruto <= 1500) {
@@ -31,20 +31,20 @@ public class Exer12 {
 			percentual = 20;
 		}
 
-		// Percentual e cálculo de desconto do IR com base no salário bruto
+		// Percentual e cï¿½lculo de desconto do IR com base no salï¿½rio bruto
 		double descontoIR = (salarioBruto / 100) * percentual;
 
-		// Percentual e cálculo de desconto do FGTS com base no salário bruto
+		// Percentual e cï¿½lculo de desconto do FGTS com base no salï¿½rio bruto
 		double percentualFGTS = 11;
 		double descontoFGTS = (salarioBruto / 100) * percentualFGTS;
-		// Percentual e cálculo de desconto do IN com base no salário bruto
+		// Percentual e cï¿½lculo de desconto do IN com base no salï¿½rio bruto
 		double percentualINSS = 10;
 		double descontoINSS = (salarioBruto / 100) * percentualINSS;
 
 		double totalDescontos = descontoIR + descontoINSS;
 		double salarioLiquido = salarioBruto - descontoIR - descontoINSS;
 
-		System.out.printf("Salário bruto: (valor da hora x quantidade de horas trabalhadas no mês) = R$ % .2f \n",
+		System.out.printf("Salï¿½rio bruto: (valor da hora x quantidade de horas trabalhadas no mï¿½s) = R$ % .2f \n",
 				salarioBruto);
 
 		System.out.printf("(-) IR " + "( " + percentual + ")" + "                 " + ": R$ % .2f \n", descontoIR);
@@ -57,7 +57,7 @@ public class Exer12 {
 
 		System.out.printf("Total de descontos: R$ % .2f \n", totalDescontos);
 
-		System.out.printf("Salário Liquido: R$ % .2f", salarioLiquido);
+		System.out.printf("Salï¿½rio Liquido: R$ % .2f", salarioLiquido);
 
 		scan.close();
 	}

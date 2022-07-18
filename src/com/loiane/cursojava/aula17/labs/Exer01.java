@@ -8,12 +8,14 @@ public class Exer01 {
 		Scanner scan = new Scanner(System.in); 
 		int nota = 0;
 		
+		// Enquanto esse valor for verdadeiro o loop serï¿½ executado
 		while(nota >= 0 && nota <= 10) {
 			System.out.println("Digite uma nota: ");
 			nota = scan.nextInt();
 			
+			// Se o valor for invï¿½lido, o programa emite uma mensagem e encerra o seu funcionamento
 			if(nota < 0 || nota > 10) {
-				System.out.println("Valor inválido!");
+				System.out.println("Valor invï¿½lido!");
 				System.out.println("Fim do programa.");
 				System.exit(0);
 			} 

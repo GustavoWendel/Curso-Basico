@@ -1,0 +1,27 @@
+
+c
+java:S11922"MDefine a constant instead of duplicating this literal ": R$ % .2f 
+" 3 times.(™¦Û„
+h
+java:S11922"RDefine a constant instead of duplicating this literal "                 " 3 times.(™¦Û„
+k
+java:S1659"PDeclare "valorHoraTrabalhada" and all following declarations on a separate line.(‰ğå©ıÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ù–´ùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¤æä‚úÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(¡ïÀO
+g
+java:S3457/"Q%n should be used in place of \n to produce the platform-specific line separator.(–ÿ±”
+N	java:S106/"9Replace this use of System.out or System.err by a logger.(–ÿ±”
+W
+java:S34572"AFormat specifiers should be used instead of string concatenation.(™¦Û„
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(™¦Û„
+W
+java:S34574"AFormat specifiers should be used instead of string concatenation.(æÑ•
+N	java:S1064"9Replace this use of System.out or System.err by a logger.(æÑ•
+W
+java:S34577"AFormat specifiers should be used instead of string concatenation.(•Ó›à
+N	java:S1067"9Replace this use of System.out or System.err by a logger.(•Ó›à
+g
+java:S3457:"Q%n should be used in place of \n to produce the platform-specific line separator.(Ğœ‰
+N	java:S106:"9Replace this use of System.out or System.err by a logger.(Ğœ‰
+N	java:S106<"9Replace this use of System.out or System.err by a logger.(çŸ‘Ï
