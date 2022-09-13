@@ -11,7 +11,7 @@ public class BeeCrowd1072 {
 		int in = 0;
 		int out = 0;
 
-		for (int i = 1; i <= n; i++) {
+		for (int contador = 1; contador <= n; contador++) {
 			int x = scan.nextInt();
 			if (x >= 10 && x <= 20) {
 				in++;
@@ -22,5 +22,7 @@ public class BeeCrowd1072 {
 		
 		System.out.println("in: " + in);
 		System.out.println("out: " + out);
+		
+		scan.close();
 	}
 }
